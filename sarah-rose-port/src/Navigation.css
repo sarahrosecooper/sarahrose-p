@@ -6,4 +6,12 @@ a {
   display: block;
   padding: 8px;
   text-decoration: none;
+  color: #606060;
+}
+
+a:hover {
+  color: pink;
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }

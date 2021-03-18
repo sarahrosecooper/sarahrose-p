@@ -14,6 +14,7 @@ const Container = styled.ul`
 
 const NavElements = styled.li`
   display: inline;
+  color: #a9a9a9;
 `;
 
 const Navigation = () => {
