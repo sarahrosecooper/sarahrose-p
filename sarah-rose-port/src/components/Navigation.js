@@ -8,13 +8,12 @@ const Nav = styled.nav``;
 const Container = styled.ul`
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   padding-right: 20px;
 `;
 
 const NavElements = styled.li`
   display: inline;
-  color: #a9a9a9;
 `;
 
 const Navigation = () => {
@@ -23,7 +22,10 @@ const Navigation = () => {
       <Nav>
         <Container>
           <NavElements>
-            <Link to="/">about</Link>
+            <Link to="">home</Link>
+          </NavElements>
+          <NavElements>
+            <Link to="/about">about</Link>
           </NavElements>
           <NavElements>
             <Link to="/projects">projects</Link>
