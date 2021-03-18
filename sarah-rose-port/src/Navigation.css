@@ -2,14 +2,14 @@ li {
   float: right;
 }
 
-a {
+.nav-link {
   display: block;
   padding: 8px;
   text-decoration: none;
   color: #606060;
 }
 
-a:hover {
+.nav-link:hover {
   color: pink;
   font-size: 1.3rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

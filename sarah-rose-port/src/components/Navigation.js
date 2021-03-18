@@ -10,6 +10,7 @@ const Container = styled.ul`
   margin: 0;
   padding: 20px;
   padding-right: 20px;
+  overflow: hidden;
 `;
 
 const NavElements = styled.li`
@@ -22,16 +23,24 @@ const Navigation = () => {
       <Nav>
         <Container>
           <NavElements>
-            <Link to="">home</Link>
+            <Link to="" className="nav-link">
+              home
+            </Link>
           </NavElements>
           <NavElements>
-            <Link to="/about">about</Link>
+            <Link to="/about" className="nav-link">
+              about
+            </Link>
           </NavElements>
           <NavElements>
-            <Link to="/projects">projects</Link>
+            <Link to="/projects" className="nav-link">
+              projects
+            </Link>
           </NavElements>
           <NavElements>
-            <Link to="/contact">contact</Link>
+            <Link to="/contact" className="nav-link">
+              contact
+            </Link>
           </NavElements>
         </Container>
       </Nav>
