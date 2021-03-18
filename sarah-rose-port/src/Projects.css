@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.portfolio {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  flex-flow: row wrap;
+  padding: 5%;
+  margin-left: 13%;
+  margin-top: 0;
+  padding-top: 0%;
+}
+
+.child {
+  padding: 20px;
+  width: 33.33%;
+  order: 1;
+}
+
+h4 {
+  color: #606060;
+}

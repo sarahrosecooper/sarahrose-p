@@ -10,6 +10,7 @@ const Container = styled.ul`
   margin: 0;
   padding: 20px;
   padding-right: 20px;
+  overflow: hidden;
 `;
 
 const NavElements = styled.li`
