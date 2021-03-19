@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 const Main = styled.div`
   border: 1px solid black;
+  // margin-left: 25%;
+  // margin-right: 25%;
 `;
 
 const Span = styled.span`
