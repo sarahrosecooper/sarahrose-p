@@ -31,6 +31,8 @@ const Container = styled.div`
 const SkillsBox = styled.div`
   margin-left: 4%;
   padding: 1%;
+  padding-top: 3%;
+  padding-bottom: 5%;
 `;
 
 const Skills = () => {
