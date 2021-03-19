@@ -1,10 +1,19 @@
 import React from "react";
-import "animate.css/animate.css";
+import "../About.css";
 import styled from "styled-components";
+
+const Main = styled.div`
+  overflow: hidden;
+`;
 
 const Span = styled.span`
   color: #fa89d8;
   font-style: italic;
+`;
+
+const AboutText = styled.div`
+  padding-left: 5%;
+  padding-right: 5%;
 `;
 
 const H3 = styled.h3`
@@ -24,21 +33,31 @@ const SpanHover = styled.span`
   }
 `;
 
+const AboutMe = styled.div`
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 3%;
+`;
 const About = () => {
   return (
-    <div>
-      <h1>
-        my name is{" "}
-        <SpanHover>
-          sarah <Span>rose</Span> cooper.
-        </SpanHover>
-      </h1>
+    <Main className="mainContainer">
+      <AboutMe>
+        <h2>
+          my name is{" "}
+          <SpanHover>
+            sarah <Span>rose</Span> cooper.
+          </SpanHover>
+        </h2>
 
-      <p>
-        (<Span>she/her</Span>) i'm a passionately empathetic <br></br>full stack
-        developer with a passion for front end <br></br>who is dedicated to
-        making the internet <br></br>more human.
-      </p>
+        <AboutText className="mainDiv">
+          <p>
+            (<Span>she/her</Span>) i'm a passionately empathetic full stack
+            developer with a vigor for front end who is dedicated to making the
+            internet more human.
+          </p>
+        </AboutText>
+      </AboutMe>
+
       <H3>skills</H3>
       <i class="devicon-slack-plain-wordmark" title="slack"></i>
       <i class="devicon-trello-plain-wordmark" title="trello"></i>
@@ -62,7 +81,7 @@ const About = () => {
       <i class="devicon-redux-original tooltip" title="redux"></i>
       <i class="devicon-nodejs-plain-wordmark" title="node"></i>
       <br></br>
-    </div>
+    </Main>
   );
 };
 

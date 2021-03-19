@@ -3,8 +3,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const Nav = styled.nav``;
-
 const Container = styled.ul`
   list-style-type: none;
   margin: 0;
@@ -20,7 +18,7 @@ const NavElements = styled.li`
 const Navigation = () => {
   return (
     <div>
-      <Nav>
+      <nav>
         <Container>
           <NavElements>
             <Link to="/about" className="nav-link">
@@ -38,7 +36,7 @@ const Navigation = () => {
             </Link>
           </NavElements>
         </Container>
-      </Nav>
+      </nav>
     </div>
   );
 };

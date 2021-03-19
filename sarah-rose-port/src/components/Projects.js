@@ -1,6 +1,6 @@
 import "../Projects.css";
 import React from "react";
-import { Link } from "react-router-dom";
+
 import africanMarketplace from "../images/build-week-group.png";
 import essentialism from "../images/essentialism-group-build.png";
 import firstProject from "../images/faux-portfolio.png";
@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="portfolio">
         <div className="child">
           <h4>african marketplace</h4>
-          <p>
+          <p className="description">
             built with redux, react, css, and styled components on a
             collaborative team of four developers over two weeks.
           </p>
@@ -33,7 +33,10 @@ const Projects = () => {
             href="https://front-end-african-market-place.vercel.app/"
             target="_blank"
           >
-            <img src={africanMarketplace} />
+            <img
+              src={africanMarketplace}
+              alt="african marketplace screenshot"
+            />
           </a>
           <p>
             <Links
@@ -53,12 +56,15 @@ const Projects = () => {
         </div>
         <div className="child">
           <h4>reducer to do </h4>
-          <p>
+          <p className="description">
             built with react, redux, and styled components as an introductory
             project to using reducers and hooks in redux.
           </p>{" "}
           <a href="https://react-redux-todo-nine.vercel.app/" target="_blank">
-            <img src={reduxTodo} />
+            <img
+              src={reduxTodo}
+              alt="screenshot of a todo list with hearts and flowers"
+            />
           </a>
           <p>
             <Links
@@ -78,12 +84,15 @@ const Projects = () => {
         </div>
         <div className="child">
           <h4>essentialism</h4>
-          <p>
+          <p className="description">
             worked collaboratively with six developers to create a landing page
             for their project using css and html.
           </p>{" "}
           <a href="https://essentialism-simplify.netlify.app/" target="_blank">
-            <img src={essentialism} />
+            <img
+              src={essentialism}
+              alt="screenshot of a green themed landing page"
+            />
           </a>
           <p>
             <Links
@@ -103,7 +112,7 @@ const Projects = () => {
         </div>
         <div className="child">
           <h4>react redux quote generator</h4>
-          <p>
+          <p className="description">
             built with react and redux using asychronous action creators and
             consuming apis in react redux using reducers.{" "}
           </p>
@@ -111,7 +120,10 @@ const Projects = () => {
             href="https://redux-quote-app-cqx1shs85-sarahrosecooper.vercel.app/"
             target="_blank"
           >
-            <img src={reactRedux} />
+            <img
+              src={reactRedux}
+              alt="screenshot of a preview of a quote generator using trump and emojis"
+            />
           </a>
           <p>
             <Links
@@ -133,7 +145,7 @@ const Projects = () => {
 
         <div className="child">
           <h4>faux portfolio</h4>
-          <p>
+          <p className="description">
             one of my very first projects trying to grasp flexbox and css
             styling in faux portfolio format.
           </p>
@@ -141,7 +153,7 @@ const Projects = () => {
             href="https://portfoliotestsrc.netlify.app/index.html"
             target="_blank"
           >
-            <img src={firstProject} />
+            <img src={firstProject} alt="screenshot of a homepage with roses" />
           </a>
           <p>
             <Links
@@ -162,7 +174,7 @@ const Projects = () => {
         </div>
         <div className="child">
           <h4>wireframe example</h4>
-          <p>
+          <p className="description">
             a project in progress just here to demonstrate my interest in
             documentation and planning before action.
           </p>
@@ -170,7 +182,10 @@ const Projects = () => {
             href="https://whimsical.com/thought-flow-22TFNanDKbF1WQ6oDuLKYU"
             target="_blank"
           >
-            <img src={wireframe} />
+            <img
+              src={wireframe}
+              alt="screenshot of a wireframe using the whimsical platform"
+            />
           </a>
           <p>
             <Links
