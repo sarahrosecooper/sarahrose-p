@@ -23,13 +23,8 @@ const Navigation = () => {
       <Nav>
         <Container>
           <NavElements>
-            <Link to="" className="nav-link">
-              home
-            </Link>
-          </NavElements>
-          <NavElements>
             <Link to="/about" className="nav-link">
-              about
+              home
             </Link>
           </NavElements>
           <NavElements>
