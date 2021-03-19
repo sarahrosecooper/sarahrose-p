@@ -1,6 +1,8 @@
 import React from "react";
 import "../About.css";
 import styled from "styled-components";
+// import { useWindupString } from "windups";
+import { Pace, WindupChildren } from "windups";
 
 const Main = styled.div`
   border: 1px solid black;
@@ -17,12 +19,6 @@ const AboutText = styled.div`
   padding-left: 5%;
   padding-right: 5%;
   text-align: justify;
-`;
-
-const SpanHover = styled.span`
-  &:hover {
-    font-family: "Trebuchet";
-  }
 `;
 
 const AboutMe = styled.div`
@@ -45,11 +41,16 @@ const About = () => {
     <Main className="container">
       <AboutMe>
         <h2>
-          hi there, <br></br>my name is{" "}
-          <SpanHover>
-            sarah <Span>rose</Span> cooper.
-          </SpanHover>
+          hi there,
+          <WindupChildren>
+            {" my name is"}
+            <Pace ms={70}>
+              <span style={{ color: "#fa89d8" }}>{" sarah rose cooper"}</span>
+              {"."}
+            </Pace>
+          </WindupChildren>
         </h2>
+
         <AboutText className="mainDiv">
           <p>
             (<Span>she/her</Span>) I am a passionately empathetic Full-Stack
@@ -70,7 +71,7 @@ const About = () => {
             and warmth between all different types of people (animals, too.) I
             believe there is no denying that the internet is a central focus in
             making this happen. I hope as I expand my technical knowledge I can
-            play a part in bridging this gap as a queer, woman of color. it’s
+            play a part in bridging this gap as a queer, woman of color. It’s
             riveting to be a part of an industry where ones hunger for knowledge
             can be endlessly satiated with a thousand ways to expand your skill
             set at any given moment.
