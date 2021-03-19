@@ -62,7 +62,7 @@ const About = () => {
             friends Myspace layouts (and my own) stand out. When I’m not
             developing, my interests range from psychology, cats, film, music,
             all forms of art and literature/poetry to caffeine. After being a
-            barista off and on for 8 years I find that my empathy for people,
+            barista off and on for 8 years I find that my enthusiasm for people,
             diversity, and inclusivity for all human beings has and only will
             continue to magnify. Although these skill sets are not tech
             oriented, I have no doubt that they are directly transferable. There
