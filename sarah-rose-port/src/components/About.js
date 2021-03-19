@@ -3,7 +3,7 @@ import "../About.css";
 import styled from "styled-components";
 
 const Main = styled.div`
-  overflow: hidden;
+  border: 1px solid black;
 `;
 
 const Span = styled.span`
@@ -14,17 +14,7 @@ const Span = styled.span`
 const AboutText = styled.div`
   padding-left: 5%;
   padding-right: 5%;
-`;
-
-const H3 = styled.h3`
-  margin: 0;
-  padding: 0;
-  border: 0;
-  color: gray;
-  font-size: 1rem;
-  font-weight: normal;
-  text-shadow: 1px 1px 2px #606060;
-  text-decoration: underline;
+  text-align: justify;
 `;
 
 const SpanHover = styled.span`
@@ -34,52 +24,83 @@ const SpanHover = styled.span`
 `;
 
 const AboutMe = styled.div`
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-bottom: 3%;
+  // margin-left: 12%;
+  // margin-right: 12%;
+  // margin-bottom: 3%;
 `;
+
+const Links = styled.a`
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: pink;
+  }
+`;
+
 const About = () => {
   return (
-    <Main className="mainContainer">
+    <Main className="container">
       <AboutMe>
         <h2>
-          my name is{" "}
+          hi there, <br></br>my name is{" "}
           <SpanHover>
             sarah <Span>rose</Span> cooper.
           </SpanHover>
         </h2>
-
         <AboutText className="mainDiv">
           <p>
-            (<Span>she/her</Span>) i'm a passionately empathetic full stack
-            developer with a vigor for front end who is dedicated to making the
-            internet more human.
+            (<Span>she/her</Span>) I am a passionately empathetic Full-Stack
+            Developer with a vigor for front-end. I am currently studying Full
+            Stack at Lambda School - having just finished the front end and
+            focusing on new back end technologies. However, my dream stack is
+            everything iOS and advancing my UI/UX knowledge. I’m not ashamed to
+            say my interest in technology was peaked in the early 2000’s when I
+            picked up my first HTML/CSS for Dummies book so I could make my
+            friends Myspace layouts (and my own) stand out. When I’m not
+            developing, my interests range from psychology, cats, film, music,
+            all forms of art and literature/poetry to caffeine. After being a
+            barista off and on for 8 years I find that my empathy for people,
+            diversity, and inclusivity for all human beings has and only will
+            continue to magnify. Although these skill sets are not tech
+            oriented, I have no doubt that they are directly transferable. There
+            is no greater motivating factor in my life than fostering connection
+            and warmth between all different types of people (animals, too.) I
+            believe there is no denying that the internet is a central focus in
+            making this happen. I hope as I expand my technical knowledge I can
+            play a part in bridging this gap as a queer, woman of color. it’s
+            riveting to be a part of an industry where ones hunger for knowledge
+            can be endlessly satiated with a thousand ways to expand your skill
+            set at any given moment.
           </p>
         </AboutText>
       </AboutMe>
-
-      <H3>skills</H3>
-      <i class="devicon-slack-plain-wordmark" title="slack"></i>
-      <i class="devicon-trello-plain-wordmark" title="trello"></i>
-      <i class="devicon-visualstudio-plain-wordmark" title="VSCode"></i>
-      <i class="devicon-git-plain-wordmark" title="git"></i>
-
       <br></br>
-      <i class="devicon-npm-original-wordmark tooltip" title="npm"></i>
-      <i class="devicon-chrome-plain tooltip" title="Chrome"></i>
-      <i class="devicon-github-original tooltip" title="Github"></i>
-      <i class="devicon-apple-original tooltip" title="macOS"></i>
-
-      <i class="devicon-codepen-plain tooltip" title="Codepen"></i>
-      <br></br>
-      <i class="devicon-html5-plain-wordmark tooltip" title="HTML5"></i>
-      <i class="devicon-css3-plain-wordmark tooltip" title="CSS3"></i>
-
-      <i class="devicon-javascript-plain tooltip" title="Javascript"></i>
-
-      <i class="devicon-react-original-wordmark tooltip" title="reactJS"></i>
-      <i class="devicon-redux-original tooltip" title="redux"></i>
-      <i class="devicon-nodejs-plain-wordmark" title="node"></i>
+      <div>
+        <Links
+          href="https://www.linkedin.com/in/sarah-cooper-797370126/"
+          target="_blank"
+        >
+          <i class="devicon-linkedin-plain" title="linkedIn"></i>
+        </Links>
+        <Links href="https://github.com/sarahrosecooper" target="_blank">
+          <i class="devicon-github-original" title="github"></i>
+        </Links>
+        <Links href="https://twitter.com/srciscoding" target="_blank">
+          {" "}
+          <i class="devicon-twitter-original" title="twitter"></i>
+        </Links>
+        <Links
+          href="mailto:sarahrosecooperx@gmail.com?subject=I would love to get in touch!"
+          target="_blank"
+        >
+          <i
+            class="fa fa-envelope"
+            style={{ fontSize: "36px" }}
+            title="email"
+          ></i>
+        </Links>
+      </div>
       <br></br>
     </Main>
   );

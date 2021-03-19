@@ -21,18 +21,25 @@ const Navigation = () => {
       <nav>
         <Container>
           <NavElements>
-            <Link to="/about" className="nav-link">
-              home
+            <Link to="/contact" className="nav-link">
+              contact
             </Link>
           </NavElements>
+          <NavElements>
+            <Link to="/skills" className="nav-link">
+              skills
+            </Link>
+          </NavElements>
+
           <NavElements>
             <Link to="/projects" className="nav-link">
               projects
             </Link>
           </NavElements>
+
           <NavElements>
-            <Link to="/contact" className="nav-link">
-              contact
+            <Link to="/about" className="nav-link">
+              home
             </Link>
           </NavElements>
         </Container>

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    justify-content: center;
+  }
+
+  .skillsContainer {
+    margin-bottom: 10%;
+    border-top: 1px dotted lightgrey;
+    border-bottom: 1px dotted lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

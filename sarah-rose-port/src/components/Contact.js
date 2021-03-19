@@ -1,6 +1,6 @@
 import "../Contact.css";
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Links = styled.a`
   text-decoration: none;
@@ -9,6 +9,16 @@ const Links = styled.a`
   &:hover {
     color: pink;
   }
+
+  ${(props) =>
+    props.textLink &&
+    css`
+      color: grey;
+
+      &:hover {
+        font-style: italic;
+      }
+    `}
 `;
 const Contact = () => {
   return (
@@ -36,6 +46,33 @@ const Contact = () => {
           title="email"
         ></i>
       </Links>
+      <br></br>
+      <br></br>
+      <Links
+        href="https://www.linkedin.com/in/sarah-cooper-797370126/"
+        target="_blank"
+        textLink
+      >
+        (linkedin)
+      </Links>
+      <br></br>
+      <Links textLink href="https://github.com/sarahrosecooper" target="_blank">
+        (github)
+      </Links>
+      <br></br>
+      <Links
+        href="mailto:sarahrosecooperx@gmail.com?subject=I would love to get in touch!"
+        target="_blank"
+        textLink
+      >
+        (gmail)
+      </Links>
+      <br></br>
+      <Links href="https://twitter.com/srciscoding" target="_blank" textLink>
+        (twitter)
+      </Links>
+      <br></br>
+      (resume) <br></br>
     </div>
   );
 };
