@@ -72,7 +72,14 @@ const Contact = () => {
         (twitter)
       </Links>
       <br></br>
-      (resume) <br></br>
+      <Links
+        href="https://docs.google.com/document/d/1esH3jGG40mgo8Koh-0jqR589Sqnuw5D1-1QYUk-cc_k/edit?usp=sharing"
+        target="_blank"
+        textLink
+      >
+        (resume)
+      </Links>{" "}
+      <br></br>
     </div>
   );
 };
