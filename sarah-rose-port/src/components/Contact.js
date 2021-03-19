@@ -1,3 +1,4 @@
+import "../Contact.css";
 import React from "react";
 import styled from "styled-components";
 
@@ -11,7 +12,7 @@ const Links = styled.a`
 `;
 const Contact = () => {
   return (
-    <div>
+    <div className="center">
       <Links
         href="https://www.linkedin.com/in/sarah-cooper-797370126/"
         target="_blank"

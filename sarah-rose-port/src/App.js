@@ -8,7 +8,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navigation />
       <Switch>
         <Route path="/contact">
@@ -17,7 +17,7 @@ function App() {
         <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/about">
+        <Route path="/">
           <About />
         </Route>
       </Switch>
