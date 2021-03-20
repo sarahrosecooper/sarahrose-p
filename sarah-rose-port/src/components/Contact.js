@@ -86,8 +86,9 @@ const Contact = () => {
       <br></br>
       <br></br>
       <br></br>
+      <div className="contact-triangle-divider">-- ▲▼▲ --</div>
       <br></br>
-
+      <br></br>
       <div>
         <Links
           href="https://www.linkedin.com/in/sarah-cooper-797370126/"
@@ -126,8 +127,9 @@ const Contact = () => {
         </Links>{" "}
       </div>
       <br></br>
+      <div className="contact-triangle-divider">-- ▲▼▲ --</div>
       <br></br>
-
+      <br></br>
       <QuoteBlock className="contact-blockquote-div">
         <blockquote>
           {quote}{" "}
