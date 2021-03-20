@@ -59,7 +59,7 @@ const Skills = () => {
         </div>
       </div>
       <h3>NEXT ON THE AGENDA</h3>
-      MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT
+      <p>MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT</p>
     </div>
   );
 };

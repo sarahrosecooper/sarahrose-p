@@ -48,38 +48,43 @@ const Contact = () => {
       </Links>
       <br></br>
       <br></br>
-      <Links
-        href="https://www.linkedin.com/in/sarah-cooper-797370126/"
-        target="_blank"
-        textLink
-      >
-        (linkedin)
-      </Links>
-      <br></br>
-      <Links textLink href="https://github.com/sarahrosecooper" target="_blank">
-        (github)
-      </Links>
-      <br></br>
-      <Links
-        href="mailto:sarahrosecooperx@gmail.com?subject=I would love to get in touch!"
-        target="_blank"
-        textLink
-      >
-        (gmail)
-      </Links>
-      <br></br>
-      <Links href="https://twitter.com/srciscoding" target="_blank" textLink>
-        (twitter)
-      </Links>
-      <br></br>
-      <Links
-        href="https://docs.google.com/document/d/1esH3jGG40mgo8Koh-0jqR589Sqnuw5D1-1QYUk-cc_k/edit?usp=sharing"
-        target="_blank"
-        textLink
-      >
-        (resume)
-      </Links>{" "}
-      <br></br>
+      <div>
+        <Links
+          href="https://www.linkedin.com/in/sarah-cooper-797370126/"
+          target="_blank"
+          textLink
+        >
+          (linkedin)
+        </Links>
+        <br></br>
+        <Links
+          textLink
+          href="https://github.com/sarahrosecooper"
+          target="_blank"
+        >
+          (github)
+        </Links>
+        <br></br>
+        <Links
+          href="mailto:sarahrosecooperx@gmail.com?subject=I would love to get in touch!"
+          target="_blank"
+          textLink
+        >
+          (gmail)
+        </Links>
+        <br></br>
+        <Links href="https://twitter.com/srciscoding" target="_blank" textLink>
+          (twitter)
+        </Links>
+        <br></br>
+        <Links
+          href="https://docs.google.com/document/d/1esH3jGG40mgo8Koh-0jqR589Sqnuw5D1-1QYUk-cc_k/edit?usp=sharing"
+          target="_blank"
+          textLink
+        >
+          (resume)
+        </Links>{" "}
+      </div>
     </div>
   );
 };
