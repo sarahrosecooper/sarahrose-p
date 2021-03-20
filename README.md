@@ -1,4 +1,7 @@
  ###### 🌹 sarah rose's portfolio
+ 
+ ✨ [live](https://sarahrosecooper.dev/) ✨
+ 
  ---
  ##### created in two days with a lot of ☕ and
  > * CSS
@@ -17,4 +20,4 @@
 ###### - this amazing library for my dev icons
 > * https://devicon.dev/
 
-✨ [live](https://sarahrosecooper.dev/) ✨
+
