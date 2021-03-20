@@ -6,8 +6,6 @@ import { Pace, WindupChildren } from "windups";
 
 const Main = styled.div`
   border: 1px solid black;
-  // margin-left: 25%;
-  // margin-right: 25%;
 `;
 
 const Span = styled.span`
@@ -21,12 +19,6 @@ const AboutText = styled.div`
   text-align: justify;
 `;
 
-const AboutMe = styled.div`
-  // margin-left: 12%;
-  // margin-right: 12%;
-  // margin-bottom: 3%;
-`;
-
 const Links = styled.a`
   text-decoration: none;
   color: black;
@@ -38,8 +30,8 @@ const Links = styled.a`
 
 const About = () => {
   return (
-    <Main className="container">
-      <AboutMe>
+    <Main className="about-container">
+      <div>
         <h2>
           hi there,
           <WindupChildren>
@@ -51,7 +43,7 @@ const About = () => {
           </WindupChildren>
         </h2>
 
-        <AboutText className="mainDiv">
+        <AboutText className="about-text-div">
           <p>
             (<Span>she/her</Span>) I am a passionate Full-Stack Developer with a
             vigor for front-end. I am currently studying Full Stack at Lambda
@@ -77,7 +69,7 @@ const About = () => {
             any given moment.
           </p>
         </AboutText>
-      </AboutMe>
+      </div>
       <br></br>
       <div>
         <Links

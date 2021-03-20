@@ -1,10 +1,10 @@
 import "../Skills.css";
 import React from "react";
-import styled, { css } from "styled-components";
 
 const Skills = () => {
   return (
     <div className="skills">
+      <h3 className="skills-h3">ONGOING</h3>
       <div className="skillsContainer">
         <div className="skill">
           <i class="devicon-slack-plain"></i> <p className="language">slack</p>{" "}
@@ -58,8 +58,13 @@ const Skills = () => {
           <br></br>
         </div>
       </div>
-      <h3>NEXT ON THE AGENDA</h3>
-      <p>MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT</p>
+      <br></br>
+      <div className="skills-next-div">
+        <h3 className="skills-h3">NEXT ON THE AGENDA</h3>
+        <p classname="skills-next-skills">
+          MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT
+        </p>
+      </div>
     </div>
   );
 };

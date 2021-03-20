@@ -18,26 +18,26 @@ const NavElements = styled.li`
 const Navigation = () => {
   return (
     <div>
-      <nav>
+      <nav className="nav">
         <Container>
-          <NavElements>
+          <NavElements className="nav-li">
             <Link to="/contact" className="nav-link">
               contact
             </Link>
           </NavElements>
-          <NavElements>
+          <NavElements className="nav-li">
             <Link to="/skills" className="nav-link">
               skills
             </Link>
           </NavElements>
 
-          <NavElements>
+          <NavElements className="nav-li">
             <Link to="/projects" className="nav-link">
               projects
             </Link>
           </NavElements>
 
-          <NavElements>
+          <NavElements className="nav-li">
             <Link to="/about" className="nav-link">
               home
             </Link>
