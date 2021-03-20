@@ -1,6 +1,11 @@
 .skillsContainer {
   display: flex;
   font-size: 0.6rem;
+  /* margin-top: 5%; */
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+
+  padding-top: 4.6%;
 }
 
 .skill {
@@ -11,9 +16,16 @@
   margin: 20px;
 }
 
+.skills-next-div {
+  padding-bottom: 4%;
+  border-bottom: 1px solid lightgray;
+}
+
 @media only screen and (min-width: 768px) {
   .skillsContainer {
     font-size: 1rem;
+
+    /* margin-top: 10%; */
   }
 
   .skills {

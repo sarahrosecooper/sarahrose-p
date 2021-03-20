@@ -1,6 +1,6 @@
 /* For mobile phones: */
 
-img {
+.projects-port-img {
   max-width: 90%;
   object-fit: contain;
 }
@@ -11,6 +11,7 @@ img {
   margin: 0 auto;
   width: 80%;
   padding-bottom: 3%;
+  border-bottom: 1px solid lightgray;
 }
 
 .description {
@@ -18,7 +19,7 @@ img {
   font-size: 0.85rem;
 }
 
-h4 {
+.projects-h4 {
   margin: 0;
   padding: 0;
   padding-top: 20px;
@@ -46,7 +47,7 @@ h4 {
     order: 1;
   }
 
-  h4 {
+  .projects-h4 {
     color: #606060;
   }
 }
