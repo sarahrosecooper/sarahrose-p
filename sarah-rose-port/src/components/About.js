@@ -6,6 +6,7 @@ import { Pace, WindupChildren } from "windups";
 
 const Main = styled.div`
   border: 1px solid black;
+  line-height: 1;
 `;
 
 const Span = styled.span`
