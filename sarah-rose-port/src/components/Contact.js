@@ -36,6 +36,7 @@ const InfinityIcon = styled.span`
     color: gray;
     font-style: italic;
     font-size: 1.3rem;
+    cursor: pointer;
   }
 }
 `;

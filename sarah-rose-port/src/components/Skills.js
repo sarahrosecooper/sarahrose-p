@@ -62,7 +62,7 @@ const Skills = () => {
       <div className="skills-next-div">
         <h3 className="skills-h3">NEXT ON THE AGENDA</h3>
         <p classname="skills-next-skills">
-          MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT
+          MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT | DOCKER
         </p>
       </div>
     </div>
