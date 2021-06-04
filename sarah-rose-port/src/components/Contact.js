@@ -61,10 +61,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <Links
-        href="https://www.linkedin.com/in/sarah-cooper-797370126/"
-        target="_blank"
-      >
+      <Links href="https://www.linkedin.com/in/sarahrcooper/" target="_blank">
         <i class="devicon-linkedin-plain" title="linkedIn"></i>
       </Links>
       <Links href="https://github.com/sarahrosecooper" target="_blank">
@@ -92,7 +89,7 @@ const Contact = () => {
       <br></br>
       <div>
         <Links
-          href="https://www.linkedin.com/in/sarah-cooper-797370126/"
+          href="https://www.linkedin.com/in/sarahrcooper/"
           target="_blank"
           textLink
         >

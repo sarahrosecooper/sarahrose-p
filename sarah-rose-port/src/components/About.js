@@ -76,7 +76,7 @@ const About = () => {
         <br></br>
         <div>
           <Links
-            href="https://www.linkedin.com/in/sarah-cooper-797370126/"
+            href="https://www.linkedin.com/in/sarahrcooper/"
             target="_blank"
           >
             <i class="devicon-linkedin-plain" title="linkedIn"></i>
