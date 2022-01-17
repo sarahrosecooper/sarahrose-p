@@ -17,13 +17,13 @@ const Skills = () => {
           <br></br>
         </div>
         <div className="skill">
-          <i class="devicon-git-plain"></i> <p className="language">git</p>
+          <i class="devicon-git-plain"></i>
+          <p className="language">git</p>
           <br></br>
           <i class="devicon-npm-original-wordmark"></i>{" "}
           <p className="language">npm</p>
           <br></br>
-          <i class="devicon-chrome-plain tooltip" title="Chrome"></i>{" "}
-          <p className="language">chrome</p>
+          <i class="devicon-figma-plain"></i> <p className="language">figma</p>
           <br></br>
         </div>
         <div className="skill">
@@ -62,7 +62,8 @@ const Skills = () => {
       <div className="skills-next-div">
         <h3 className="skills-h3">NEXT ON THE AGENDA</h3>
         <p classname="skills-next-skills">
-          MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT | DOCKER
+          ADOBE XD | MATERIAL UI | SWIFT | REACT NATIVE | FLUTTER | TYPESCRIPT |
+          DOCKER
         </p>
       </div>
     </div>
